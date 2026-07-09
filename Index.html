@@ -2,46 +2,134 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device, initial scale=1.0">
-<title>[Michael Ouyang] -Portfolio</title>
-<link rel= "preconnect" href="https://fonts.googleapis.com">
-<link rel= "preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href ="https://fonts.googleapis.com/css2?family=initial width @400;500;600;700;800;900@display=swap" rel="stylesheet">
-<link rel ="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michael Ouyang - Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-</html>
+<body>
 
 <nav>
-    <div class ="container">
-        <div class="logo"><span> Michael Ouyang</span></div>
-        <ul class ="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#journey">Journey</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#contact">Contacts</a></li>
-        </ul>
-    </div>
+  <div class="container">
+    <div class="logo"><span>Michael Ouyang</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
 </nav>
 
-<div class ="glow" style="width: 500px;height: 500px; top: 100px; left: -150px; background:var(--blue);"></div>
-<div class ="glow" style="width: 500px;height: 500px; top: 200px; right: -2000px; background:var(--pink);"></div>
-<div class ="glow" style="width: 400px;height: 400px; bottom: 0; left: 20%; background:var(--purple);"></div>
+<div class="glow" style="width:500px;height:500px;top:-100px;left:-150px;background:var(--blue);"></div>
+<div class="glow" style="width:500px;height:500px;top:200px;right:-200px;background:var(--pink);"></div>
+<div class="glow" style="width:400px;height:400px;bottom:0;left:20%;background:var(--purple);"></div>
 
-<header class ="hero" id="top">
-    <div class="container hero-inner">
-        <div class="eyebrow"> Welcome to my Page</div>
-        <hi class="hero-title">
-            Computer Science student
-            <span class ="gradient-text">&map; Beginner Developer</span>
-        </hi>
-        <p class="lede">
-            I am a 100 Level Computer Science student at MIVA Open University, Learning to build things with 
-            python, C, and web. Am just getting started and am excited to keep growing one project at a time.
-        </p>
-        <div class="btn row">
-            <a href="#projects" class="btn btn-primary"> Explore My Journey</a>
-            <a href="#" class="btn btn-secondary">Download CV</a>
-        </div>
+<header class="hero" id="top">
+  <div class="container hero-inner">
+    <div class="eyebrow">Welcome to my universe</div>
+    <h1 class="hero-title">
+      Computer Science Student
+      <span class="gradient-text">&amp; Beginner Developer</span>
+    </h1>
+    <p class="lede">
+      100 Level Computer Science student at MIVA Open University, learning to build things
+      with Python, C, and the web. Just getting started, and excited to keep growing one
+      project at a time.
+    </p>
+    <div class="btn-row">
+      <a href="#projects" class="btn btn-primary">Explore My Journey</a>
+      <a href="#" class="btn btn-secondary">Download CV</a>
     </div>
+  </div>
 </header>
+
+<section id="about">
+  <div class="container">
+    <h2 class="sec-eyebrow">About <span class="accent">Me</span></h2>
+    <p class="sec-sub">Get to know the person behind the code</p>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a 100 Level Computer Science student at MIVA Open University, just starting my
+          journey into software development. Right now I'm building a foundation in Python
+          and C while also learning the basics of frontend web development with HTML and CSS.
+        </p>
+        <p>
+          I like breaking things down until they make sense, then building small projects to
+          prove I actually understand them. Every bug fixed and every small program that runs
+          correctly feels like a win.
+        </p>
+        <p>
+          My goal is to keep learning consistently, build a portfolio of real projects, and
+          grow from writing basic scripts to building complete applications.
+        </p>
+      </div>
+      <div class="stats-row" style="align-self:start;">
+        <div class="stat">
+          <div class="num">100L</div>
+          <div class="label">Current Level</div>
+        </div>
+        <div class="stat">
+          <div class="num">3</div>
+          <div class="label">Languages Learning</div>
+        </div>
+        <div class="stat">
+          <div class="num">MIVA</div>
+          <div class="label">Open University</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="journey">
+  <div class="container">
+    <h2 class="sec-eyebrow">My <span class="accent">Journey</span></h2>
+    <p class="sec-sub">Where I'm starting from and where I'm headed</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>BSc Computer Science, 100 Level</h3>
+        <div class="org">MIVA Open University</div>
+        <div class="date">2025 - Present</div>
+        <ul>
+          <li>Learning core programming logic and problem solving with Python and C.</li>
+          <li>Building a foundation in frontend web development with HTML and CSS.</li>
+          <li>Working through beginner exercises and small practice programs weekly.</li>
+          <li>Focused on consistency: a little progress every day over big leaps.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">C</span>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <h2 class="sec-eyebrow">Skills &amp; <span class="accent">Technologies</span></h2>
+    <p class="sec-sub">What I'm learning right now</p>
+    <div class="skills-grid">
+      <div class="skill-pill"><span class="spark"></span>Python</div>
+      <div class="skill-pill"><span class="spark"></span>C</div>
+      <div class="skill-pill"><span class="spark"></span>HTML</div>
+      <div class="skill-pill"><span class="spark"></span>CSS</div>
+      <div class="skill-pill"><span class="spark"></span>Git &amp; GitHub</div>
+      <div class="skill-pill"><span class="spark"></span>Problem Solving</div>
+    </div>
+    <p class="skill-note">Beginner level across the board, actively practicing every week.</p>
+    <div class="skills-stats">
+      <div class="stat"><span class="icon"></span><div class="num">3</div><div class="label">Core Languages</div></div>
+      <div class="stat"><span class="icon"></span><div class="num">0</div><div class="label">Projects Shipped</div></div>
+      <div class="stat"><span class="icon"></span><div class="num">100L</div><div class="label">Current Level</div></div>
+      <div class="stat"><span class="icon"></span><div class="num">∞</div><div class="label">Motivation</div></div>
+    </div>
+  </div>
+</section>
